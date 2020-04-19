@@ -10,8 +10,17 @@ Provides an interface for creating families of related or dependent objects with
 * The system consists of multiple families of objects, and these families are designed to be used together
 * We need a run-time value to construct a particular dependency
 
+
+
 ## Builder
-Separates object construction from its representation
+Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
+<b>When to Use Builder Pattern:</b>
+
+* <b>Complex constructor</b> - Multiple constructor having combinations of multiple parameter with nested objects
+* <b>Large number of parameters</b> - having large number of field parameter is also the key point to consider.
+* <b>Immutability</b> - You can force the immutability to the object once you are done with creation of object.
+
 ## Factory Method
 Creates an instance of several derived classes
 ## Object Pool
