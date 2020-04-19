@@ -22,7 +22,14 @@ Separate the construction of a complex object from its representation so that th
 * <b>Immutability</b> - You can force the immutability to the object once you are done with creation of object.
 
 ## Factory Method
-Creates an instance of several derived classes
+It is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+<b>When to Use Factory Method Pattern:</b>
+
+* Use the Factory Method when you don’t know beforehand the exact types and dependencies of the objects your code should work with.
+* Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.
+* Use the Factory Method when you want to save system resources by reusing existing objects instead of rebuilding them each time.
+
 ## Object Pool
 Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
 ## Prototype
