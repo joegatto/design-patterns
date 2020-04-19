@@ -28,7 +28,13 @@ Avoid expensive acquisition and release of resources by recycling objects that a
 ## Prototype
 A fully initialized instance to be copied or cloned
 ## Singleton
-A class of which only a single instance can exist
+Restricts the instantiation of a class to one "single" instance, and provide a global point of access to it. Encapsulated "just-in-time initialization" or "initialization on first use".
+
+<b>When to Use Singleton Pattern:</b>
+
+* Ownership of the single instance cannot be reasonably assigned
+* Lazy initialization is desirable
+* Global access is not otherwise provided for
 
 # Structural
 ## Adapter
