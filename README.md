@@ -4,24 +4,22 @@ This project is used to reference and learn about Design Patterns using Java.
 ## Abstract Factory
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes
 
-**When to Use Abstract Factory Pattern:**
+![Abstract Factory](diagrams/abstract_factory.png)
 
+**When to Use Abstract Factory Pattern:**
 * The client is independent of how we create and compose the objects in the system
 * The system consists of multiple families of objects, and these families are designed to be used together
 * We need a run-time value to construct a particular dependency
 
-![Abstract Factory](diagrams/abstract_factory.png)
-
 ## Builder
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
-**When to Use Builder Pattern:**
+![Builder](diagrams/builder.png)
 
+**When to Use Builder Pattern:**
 * <b>Complex constructor</b> - Multiple constructor having combinations of multiple parameter with nested objects
 * <b>Large number of parameters</b> - having large number of field parameter is also the key point to consider.
 * <b>Immutability</b> - You can force the immutability to the object once you are done with creation of object.
-
-![Builder](diagrams/builder.png)
 
 ## Factory Method
 It is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
@@ -29,7 +27,6 @@ It is a creational design pattern that provides an interface for creating object
 ![Factory Method](diagrams/factory_method.png)
 
 **When to Use Factory Method Pattern:**
-
 * Use the Factory Method when you don’t know beforehand the exact types and dependencies of the objects your code should work with.
 * Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.
 * Use the Factory Method when you want to save system resources by reusing existing objects instead of rebuilding them each time.
